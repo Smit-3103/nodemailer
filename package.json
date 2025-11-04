@@ -1,0 +1,25 @@
+{
+  "name": "nodemailer-sender-and-unsubscriber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "node src/index.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "google": "^2.1.0",
+    "googleapis": "^164.1.0",
+    "nodemailer": "^7.0.10",
+    "Router": "^2.1.0"
+  }
+}
